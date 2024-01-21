@@ -1,7 +1,15 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from "react";
 
-export function App()
-{
-    return <h1>Look mom, a heading!</h1>
+import { Footer } from "./Footer";
+import { Header } from "./Header";
+import { Note } from "./Note";
+
+export function App() {
+  return (
+    <>
+      <Header />
+      <Note />
+      <Footer />
+    </>
+  );
 }
