@@ -1,5 +1,9 @@
 import React from "react";
 
 export function Header() {
-  return <h1>Keeper</h1>;
+  return (
+    <header>
+      <h1 className="header">Keeper</h1>
+    </header>
+  );
 }

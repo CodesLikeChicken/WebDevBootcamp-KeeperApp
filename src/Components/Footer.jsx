@@ -5,8 +5,10 @@ const year = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <h1>
-      Copyright {copyrightSymbol} {year}
-    </h1>
+    <footer>
+      <p>
+        Copyright {copyrightSymbol} {year}
+      </p>
+    </footer>
   );
 }
